@@ -1,113 +1,248 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*{
 
-body {
-    padding-top: 75px; /* Ensure content starts below the navigation bar */
-}
+  padding: 0;
+  margin:0;
 
-nav {
-    width: 100%;
-    height: 75px;
-    line-height: 75px;
-    padding: 0 100px;
-    position: fixed;
-    top: 0; /* Keep the navigation bar at the top */
-    background-color: #539ccf;
-    background-image: image();
-}
 
-nav .Shivam-Dental-Clinic h1 {
-    font-size: 20px;
-    font-weight: bold;
-    float: left;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase; 
-    letter-spacing: 1.5px;
-    cursor: pointer;
-}
-
-nav ul {
-    float: right;
-    list-style: none;
+font-family:sans-serif;
+box-sizing: border-box;
 
 }
-
-
-nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.Welcome{
-    text-align: ; /* Center the welcome message */
-    margin-top: 70px; /* Adjust the top margin to position the message */
-padding-left: 50px;
-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-color:rgb(0, 0, 0) ;
-font-size: 50px;
-font-weight: bold;
-
-}
-
-.Welcome-you{
-    text-align: ; /* Center the welcome message */
-    margin-top: 20px; /* Adjust the top margin to position the message */
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-padding-left: 50px;
-font-size: 30px;
-}
-
-.contact-button {
-    background-color: #539ccf;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
-    position: relative;
-    bottom: -20px; /* Adjust this value to move the button up or down */
-    left: 50px;
-  }
+.Container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
   
-.imagee
-{
-    position: relative;
-    left: 500px;
-    top: 150px;
-    width: 600px;
-    height: 500px;
-    border-radius: 5px;
+     
+}
+nav{
+background:rgb(255, 255, 255);
+  display:flex ;
+  align-items: center;
+  justify-content: space-between; 
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+border-bottom: 2px solid black;
 }
 
-#services{
-    
-    width: 100%;
-    padding: 70px 0;
-}
+.logo{
+  position: relative;
+color: rgb(0, 0, 0);
+font-size: 35px;
+letter-spacing: 1px;
+cursor: pointer;
+left: -75px;
 
-.Services{
-
-text-align: center;
-padding-bottom: 70px;
 }
-.Services p{
-    margin: auto;
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 25px;
+   
+}
+nav ul li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+} 
+nav ul li a:hover{
+
+  color:  rgba(231,202,113,255)
+  transition: .4s;
 }  
-.imagee
-{
-    position: relative;
-    left: 500px;
-    top: 150px;
-    width: 600px;
-    height: 500px;
-    border-radius: 5px;
+.btn{
+background-color:rgb(237, 207, 119);
+color:rgb(0, 0, 0);
+text-decoration:  none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 30px;
+transition: transform .4s;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.tagline{
+  position: absolute;
+  bottom: 360px;
+  left: 40px;
+}
+.Welcome{
+  position: absolute;
+  bottom: 350px;
+  left: 50px;
+}
+h1{
+
+  color: black;
+  margin: 30px 0px 30px;
+  font-size: 50px;
+  font-family:sans-serif ;
+}
+h3{
+color: black;
+font-size: 29px;
+font-family: sans-serif;
+} 
+
+
+.contact-btn{
+position: absolute;
+bottom: 260px ;
+left: 123px;
+background-color:rgb(237, 207, 119);
+color: rgb(0, 0, 0)000;
+text-decoration: none;
+border-radius: 30px;
+padding: 10px 20px;
+text-decoration:  none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 20px;
+transition: transform .4s;
+}
+
+.contact-btn:hover{
+  transform: scale(1.2);
+}
+
+.image{
+  position: absolute;
+  bottom: 200px;
+  left: 680px;
+  top: 150px;
+  width: 30px;
+margin: 50px;
+  border-radius: 5px;
+
+
+}
+.about{
+width: 100%;
+padding: 100px;
+background-color: rgb(245, 243, 246);
+ 
+
+}
+.about-text{
+  width: 550px;
+}
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ 
+}
+.about img{
+  height: 500px;
+  width: 400px;
+  left: 50px;
+}
+.about-text h2{
+
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 50px;
+  text-transform: capitalize;
+  padding: 45px;
+}
+
+.about-text p{
+color:rgb(0, 0, 0);
+letter-spacing: 1px;
+font-size: 18px;
+line-height: 28px;
+margin-bottom:20px ;
+padding: 45px;
+
+}
+.serivce{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2{
+color: rgb(0, 0, 0);
+font-size: 75px;
+width:  1130px ;
+margin: 30px auto;
+text-align: center;
+
+}
+ .box{ 
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+ }
+ .card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+   background:rgb(245, 243, 246);
+   border: radius 20px ;
+   margin: 15px ;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+ }
+ h5{
+  color: black;
+  font-size: 23px;
+  margin-bottom: 15px;
+ }
+ .pra p{
+color: black;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 25px;
+ }
+ .visit-us {
+  width: 100%;
+  height: 290px;
+  padding: 100px;
+  background-color: rgb(245, 243, 246);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.visit-us .title p {
+  color: #333;
+  margin-bottom: -20px;
+}
+
+iframe {
+  width: 80%;
+  height: 300px; /* Adjust the height as needed */
+}
+
+
+.visitusmain{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.visit-us{
+  width: 100%;
+  padding: 100px;
+  background-color: rgb(245, 243, 246);
+
+
+}
+.number{
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+
 }
