@@ -1,0 +1,469 @@
+html=<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+<body>
+  
+
+<div class="Container">
+<nav>
+<h2 class="logo">SHIVAM DENTAL CLINIC</h2>
+<ul>
+
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Contact Us</a></li>
+
+</ul>
+<a href="#" class="btn">location</a>
+</nav>
+
+</div class="content">
+<h1 class="tagline">Your smile is our Priority</h1>
+<h3 class="Welcome">Welcome to Shivam Dentle Clinic</h3>
+<h5 class="number">OR CALL 999</h5>
+
+<a href="#" class="contact-btn">Contact Us</a>
+<div class="image">
+  <img src="D:\ShivamDentalClinic\WhatsApp Image 2024-02-26 at 12.49.01_ee53b3ba.jpg" 
+  alt="Description of the image">
+</div>  
+
+
+</div>
+</div>
+
+<!----About us  section start-->
+<section class="about">
+  <div class="main" >
+    <img src="D:\website\images\john.bg.jpg">
+<div class="about-text">
+  
+<h2 > About Us</h2>
+<p> 
+  
+  
+  We are dedicated to providing top-quality dental care in a comfortable and welcoming environment. Our team of experienced dentists, hygienists, and support staff are committed to helping you achieve and maintain a healthy smile.
+  
+  <p>
+
+  
+</div>
+</div>
+
+ 
+
+</section>
+<!--------service section start-->
+<div class="serivce">
+<div class="title">
+<h2>Our Services</h2>
+</div>
+<div class="box">
+<div class="card">
+  <img src="D:\website\images\icon-1.svg" alt="Icon description">
+  <h5>Root Canal</h5>
+  <div class="pra">
+    <p>
+      Experience gentle and effective root canal treatment tailored to your individual needs, with our compassionate team guiding you through every step of the process.
+
+Say goodbye to toothache and discomfort with our prompt and precise root canal therapy, restoring your oral health and allowing you to enjoy life without dental pain.
+
+    </p>
+
+    
+
+
+  </div>
+</div>
+
+<div class="card">
+  <img src="D:\website\images\icon-4.svg" alt="Icon description">
+  <h5>Metal Braces:
+  </h5>
+  <div class="pra">
+    <p>
+      Our metal braces offer a reliable solution for correcting bite issues, overcrowding, and misalignment, ensuring optimal dental health and a beautiful smile.
+      With our durable metal braces, you can achieve lasting results and enjoy a lifetime of improved oral health and confidence.
+
+    </p>
+
+    
+
+
+  </div>
+</div>
+
+<div class="card">
+  <img src="D:\website\images\icon-5.svg" alt="Icon description">
+  <h5>Teeth Whitening:</h5>
+  <div class="pra">
+    <p>
+      Brighten your smile and boost your confidence with our professional teeth whitening services, designed to safely and effectively remove stains and discoloration, revealing a radiant, pearly white smile.
+      Say goodbye to stains from coffee, tea, and aging, and hello to a brighter, more youthful smile with our personalized teeth whitening solutions.
+
+    </p>
+
+    
+
+
+  </div>
+</div>
+
+<div class="card">
+  <img src= "D:\website\images\icon-2.svg" alt="Icon description">  
+  <h5>Dentures</h5>
+  <div class="pra">
+  
+    <p>
+      Rediscover the joy of eating and speaking confidently with our premium-quality dentures, custom-designed to fit seamlessly and comfortably, allowing you to enjoy life to the fullest.
+      Restore your smile and regain functionality with our natural-looking dentures, crafted with precision and care to restore your confidence and improve your quality of life.
+    </p>
+
+    
+
+
+  </div>
+</div>
+
+
+</div>
+</div>
+<!---Contact us-->
+<h2 class="Heading">Contact Us</h2>
+<section class="contact">
+  <div class="content">
+    <p>def</p>
+  </div>
+  <div class="container">
+    <div class="contactInfo">
+      <div class="box2">
+        <div class="icon"><i class="fa fa-h-square" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Address</h3>
+          <p>321 sugar dvefefef</p>
+        </div>
+      </div>
+
+      <div class="box2">
+        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Phone</h3>
+          <p>93549494</p>
+        </div>
+      </div>
+
+      <div class="box2">
+        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="text">
+          <h3>Email</h3>
+          <p>9354949@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+</body>
+</html>
+
+
+--------------------
+css=*{
+
+  padding: 0;
+  margin:0;
+
+
+font-family:sans-serif;
+box-sizing: border-box;
+
+}
+.Container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  
+     
+}
+nav{
+background:rgb(255, 255, 255);
+  display:flex ;
+  align-items: center;
+  justify-content: space-between; 
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+border-bottom: 2px solid black;
+}
+
+.logo{
+  position: relative;
+color: rgb(0, 0, 0);
+font-size: 35px;
+letter-spacing: 1px;
+cursor: pointer;
+left: -75px;
+
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 25px;
+   
+}
+nav ul li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+} 
+nav ul li a:hover{
+
+  color:  rgba(231,202,113,255)
+  transition: .4s;
+}  
+.btn{
+background-color:rgb(237, 207, 119);
+color:rgb(0, 0, 0);
+text-decoration:  none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 30px;
+transition: transform .4s;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.tagline{
+  position: absolute;
+  bottom: 360px;
+  left: 40px;
+}
+.Welcome{
+  position: absolute;
+  bottom: 350px;
+  left: 50px;
+}
+h1{
+
+  color: black;
+  margin: 30px 0px 30px;
+  font-size: 50px;
+  font-family:sans-serif ;
+}
+h3{
+color: black;
+font-size: 29px;
+font-family: sans-serif;
+} 
+
+
+.contact-btn{
+position: absolute;
+bottom: 260px ;
+left: 123px;
+background-color:rgb(237, 207, 119);
+color: rgb(0, 0, 0)000;
+text-decoration: none;
+border-radius: 30px;
+padding: 10px 20px;
+text-decoration:  none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 10px 20px;
+transition: transform .4s;
+}
+
+.contact-btn:hover{
+  transform: scale(1.2);
+}
+
+.image{
+  position: absolute;
+  bottom: 200px;
+  left: 680px;
+  top: 150px;
+  width: 30px;
+margin: 50px;
+  border-radius: 5px;
+
+
+}
+.about{
+width: 100%;
+padding: 100px;
+background-color: rgb(245, 243, 246);
+ 
+
+}
+.about-text{
+  width: 550px;
+}
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ 
+}
+.about img{
+  height: 500px;
+  width: 400px;
+  left: 50px;
+}
+.about-text h2{
+
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 50px;
+  text-transform: capitalize;
+  padding: 45px;
+}
+
+.about-text p{
+color:rgb(0, 0, 0);
+letter-spacing: 1px;
+font-size: 18px;
+line-height: 28px;
+margin-bottom:20px ;
+padding: 45px;
+
+}
+.serivce{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2{
+color: rgb(0, 0, 0);
+font-size: 75px;
+width:  1130px ;
+margin: 30px auto;
+text-align: center;
+
+}
+ .box{ 
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+ }
+ .card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+   background:rgb(245, 243, 246);
+   border: radius 20px ;
+   margin: 15px ;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+ }
+ h5{
+  color: black;
+  font-size: 23px;
+  margin-bottom: 15px;
+ }
+ .pra p{
+color: black;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 25px;
+ }
+
+ .cclass{
+
+  position: relative;
+  min-height: 100vh; 
+
+  padding:50px 100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   }
+   .ccontent
+   {
+    max-width: 800px;
+    text-align: center;
+
+   }
+
+   .ccontent h2{
+
+   font-size:36px; 
+   font-weight: 500;
+   color: black;
+   }
+
+   .ccontent p{
+   
+    font-weight: 300;
+    color: black;
+
+   }
+
+   .theHeading{
+
+
+
+   }
+   
+   .ccontainer {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: left; /* Align items should be "flex-start" for left alignment */
+    margin-top: 30px;
+  }
+  
+  .thecontactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box2 {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  
+  .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center; /* Adjust alignment to center */
+    align-items: center; /* Adjust alignment to center */
+    border-radius: 50%;
+    font-size: 22px;
+  }
+  
+Plot No.959,Jagadhari Road,Ambala Cantt,Ambala-133001
+(OPPOSITE DHAWAN HOSPITAL)
+
+07942682189
+
+I wanted to move it with specific pixel and it must be responsive and can be used in phones.
+make it use in mobile phones as well responsive
+is it can be use in mobile phones as well responsive?
+
